@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>VPS排行榜</title>
-    <link>https://example.com/</link>
+    <link>https://renzhn.github.io/</link>
     <description>Recent content on VPS排行榜</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>Copyright © 2020, Root; all rights reserved.</copyright>
-    <lastBuildDate>Mon, 29 Jun 2020 15:42:16 +0700</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Jun 2020 15:42:16 +0700</lastBuildDate><atom:link href="https://renzhn.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2021年便宜高性价比VPS推荐（最新）</title>
-      <link>https://example.com/2021%E5%B9%B4%E4%BE%BF%E5%AE%9C%E9%AB%98%E6%80%A7%E4%BB%B7%E6%AF%94vps%E6%8E%A8%E8%8D%90%E6%9C%80%E6%96%B0/</link>
+      <link>https://renzhn.github.io/2021%E5%B9%B4%E4%BE%BF%E5%AE%9C%E9%AB%98%E6%80%A7%E4%BB%B7%E6%AF%94vps%E6%8E%A8%E8%8D%90%E6%9C%80%E6%96%B0/</link>
       <pubDate>Thu, 17 Dec 2020 16:46:27 +0800</pubDate>
       
-      <guid>https://example.com/2021%E5%B9%B4%E4%BE%BF%E5%AE%9C%E9%AB%98%E6%80%A7%E4%BB%B7%E6%AF%94vps%E6%8E%A8%E8%8D%90%E6%9C%80%E6%96%B0/</guid>
+      <guid>https://renzhn.github.io/2021%E5%B9%B4%E4%BE%BF%E5%AE%9C%E9%AB%98%E6%80%A7%E4%BB%B7%E6%AF%94vps%E6%8E%A8%E8%8D%90%E6%9C%80%E6%96%B0/</guid>
       <description>前言 2021年有哪些便宜VPS？最便宜VPS是哪家？VPS市场几年时间变化甚多，有的一路涨价，有的卷款跑路，有的变化路由，有的带宽缩水，那么2021年还有哪些VPS值得推荐呢？
 一、Vultr 推荐指数： ★★★★★
 全球最优秀的VPS服务商之一，美国Choopa机房的旗下的业务，产品性能比较优越，因而在业内口碑还算是比较好的。机器部署在全球17个数据中心，包括日本、韩国、新加坡、韩国、美国、荷兰等；支持：IPV6、按小时付款、快照、区块存储、自定义ISO等多种特性。KVM架构，1Gbps，50G免费备份空间，可以一键将备份好的实例还原到新建的实例里。迈阿密等延时高的机房挺稳定的，东京延时低但丢包率有点高，支持支付宝、Paypal、信用卡、Bitcoin付款，2.5$/mo起。按小时计费，可以通过重建实例实现自由切换IP.
@@ -31,10 +31,10 @@ Vultr各机房官方Looking Glass地址
     
     <item>
       <title>I Am Root</title>
-      <link>https://example.com/tools/i-am-root/</link>
+      <link>https://renzhn.github.io/tools/i-am-root/</link>
       <pubDate>Mon, 29 Jun 2020 15:42:16 +0700</pubDate>
       
-      <guid>https://example.com/tools/i-am-root/</guid>
+      <guid>https://renzhn.github.io/tools/i-am-root/</guid>
       <description>i am /
 root!
 i am root, i am root

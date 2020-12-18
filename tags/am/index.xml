@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>am on VPS排行榜</title>
-    <link>https://example.com/tags/am/</link>
+    <link>https://renzhn.github.io/tags/am/</link>
     <description>Recent content in am on VPS排行榜</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <copyright>Copyright © 2020, Root; all rights reserved.</copyright>
-    <lastBuildDate>Mon, 29 Jun 2020 15:42:16 +0700</lastBuildDate><atom:link href="https://example.com/tags/am/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Jun 2020 15:42:16 +0700</lastBuildDate><atom:link href="https://renzhn.github.io/tags/am/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>I Am Root</title>
-      <link>https://example.com/tools/i-am-root/</link>
+      <link>https://renzhn.github.io/tools/i-am-root/</link>
       <pubDate>Mon, 29 Jun 2020 15:42:16 +0700</pubDate>
       
-      <guid>https://example.com/tools/i-am-root/</guid>
+      <guid>https://renzhn.github.io/tools/i-am-root/</guid>
       <description>i am /
 root!
 i am root, i am root

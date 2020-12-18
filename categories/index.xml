@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on VPS排行榜</title>
-    <link>https://example.com/categories/</link>
+    <link>https://renzhn.github.io/categories/</link>
     <description>Recent content in Categories on VPS排行榜</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <copyright>Copyright © 2020, Root; all rights reserved.</copyright><atom:link href="https://example.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2020, Root; all rights reserved.</copyright><atom:link href="https://renzhn.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
