@@ -25,7 +25,7 @@ wget --no-check-certificate -qO DebianNET.sh qiu.sh/dd &amp;amp;&amp;amp; bash D
 https://www.vultr.com
 各数据中心在线Ping测速
 https://cloudpingtest.com/vultr
-Vultr各机房官方Looking Glass地址
+网络测试
    地理位置 官方Looking Glass地址     (Asia)Tokyo, Japan[日本 东京] https://hnd-jp-ping.vultr.com   Singapore[新加坡] https://sgp-ping.vultr.com   (AU) Sydney, Australia[悉尼] https://syd-au-ping.vultr.com   (EU) Frankfurt, DE[德国 法兰克福] https://fra-de-ping.vultr.com   (EU) Amsterdam, NL[荷兰 阿姆斯特丹] https://ams-nl-ping.</description>
     </item>
     
