@@ -6,8 +6,7 @@
     <description>Recent content on VPS排行榜</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <copyright>Copyright © 2020, Root; all rights reserved.</copyright>
-    <lastBuildDate>Mon, 29 Jun 2020 15:42:16 +0700</lastBuildDate><atom:link href="https://renzhn.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2020, Root; all rights reserved.</copyright><atom:link href="https://renzhn.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2021年便宜高性价比VPS推荐（最新）</title>
       <link>https://renzhn.github.io/2021%E5%B9%B4%E4%BE%BF%E5%AE%9C%E9%AB%98%E6%80%A7%E4%BB%B7%E6%AF%94vps%E6%8E%A8%E8%8D%90%E6%9C%80%E6%96%B0/</link>
@@ -27,18 +26,6 @@ wget --no-check-certificate -qO DebianNET.sh qiu.sh/dd &amp;amp;&amp;amp; bash D
 https://cloudpingtest.com/vultr
 网络测试
    地理位置 官方Looking Glass地址     (Asia)Tokyo, Japan[日本 东京] https://hnd-jp-ping.vultr.com   Singapore[新加坡] https://sgp-ping.vultr.com   (AU) Sydney, Australia[悉尼] https://syd-au-ping.vultr.com   (EU) Frankfurt, DE[德国 法兰克福] https://fra-de-ping.vultr.com   (EU) Amsterdam, NL[荷兰 阿姆斯特丹] https://ams-nl-ping.</description>
-    </item>
-    
-    <item>
-      <title>I Am Root</title>
-      <link>https://renzhn.github.io/tools/i-am-root/</link>
-      <pubDate>Mon, 29 Jun 2020 15:42:16 +0700</pubDate>
-      
-      <guid>https://renzhn.github.io/tools/i-am-root/</guid>
-      <description>i am /
-root!
-i am root, i am root
-i Am Root, am i root?</description>
     </item>
     
   </channel>
