@@ -8,6 +8,25 @@
     <language>zh</language>
     <copyright>Copyright © 2020, Root; all rights reserved.</copyright><atom:link href="https://renzhn.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>VPS一键搭建远程桌面（包含Chrome和Firefox）教程</title>
+      <link>https://renzhn.github.io/vps%E4%B8%80%E9%94%AE%E6%90%AD%E5%BB%BA%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2%E5%8C%85%E5%90%ABchrome%E5%92%8Cfirefox%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Fri, 18 Dec 2020 17:31:47 +0800</pubDate>
+      
+      <guid>https://renzhn.github.io/vps%E4%B8%80%E9%94%AE%E6%90%AD%E5%BB%BA%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2%E5%8C%85%E5%90%ABchrome%E5%92%8Cfirefox%E6%95%99%E7%A8%8B/</guid>
+      <description>前言 推荐一个Docker镜像，用来一键搭建桌面环境（包含Chrome和Firefox），支持 VNC、RDP 协议，也可用浏览器（noVNC）直接打开。
+这样可以在VPS或者群晖很方便地运行一个桌面环境，实现远程桌面连接！
+VPS安装Docker 使用官方一键安装脚本：
+curl -Lv get.docker.com|bash
+使用方法 输入命令：
+docker run -d -p 3389:3389 -p 5901:5901 -p 6901:6901 soff/tiny-remote-desktop
+ 浏览器（noVNC），直接访问：http://ip:6901，密码 vncpassword VNC：ip:5901，密码 vncpassword RDP：ip，用户名 user 密码 password   Credit: https://hub.docker.com/r/soff/tiny-remote-desktop
+ 其他镜像
+https://hub.docker.com/r/consol/centos-xfce-vnc
+https://hub.docker.com/r/soff/ubuntu-xfce-vnc
+https://github.com/fcwu/docker-ubuntu-vnc-desktop</description>
+    </item>
+    
+    <item>
       <title>2021年便宜高性价比VPS推荐（最新）</title>
       <link>https://renzhn.github.io/2021%E5%B9%B4%E4%BE%BF%E5%AE%9C%E9%AB%98%E6%80%A7%E4%BB%B7%E6%AF%94vps%E6%8E%A8%E8%8D%90%E6%9C%80%E6%96%B0/</link>
       <pubDate>Thu, 17 Dec 2020 16:46:27 +0800</pubDate>
