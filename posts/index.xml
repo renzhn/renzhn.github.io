@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>VPS百科</title>
-    <link>https://renzhn.github.io/</link>
-    <description>Recent content on VPS百科</description>
+    <title>Posts on VPS百科</title>
+    <link>https://renzhn.github.io/posts/</link>
+    <description>Recent content in Posts on VPS百科</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 18 Dec 2020 17:31:47 +0800</lastBuildDate><atom:link href="https://renzhn.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Dec 2020 17:31:47 +0800</lastBuildDate><atom:link href="https://renzhn.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2021年便宜高性价比VPS推荐（最新）</title>
       <link>https://renzhn.github.io/posts/2021%E5%B9%B4%E4%BE%BF%E5%AE%9C%E9%AB%98%E6%80%A7%E4%BB%B7%E6%AF%94vps%E6%8E%A8%E8%8D%90%E6%9C%80%E6%96%B0/</link>
@@ -44,24 +44,6 @@ docker run -d -p 3389:3389 -p 5901:5901 -p 6901:6901 soff/tiny-remote-desktop
 https://hub.docker.com/r/consol/centos-xfce-vnc
 https://hub.docker.com/r/soff/ubuntu-xfce-vnc
 https://github.com/fcwu/docker-ubuntu-vnc-desktop</description>
-    </item>
-    
-    <item>
-      <title>归档</title>
-      <link>https://renzhn.github.io/archives/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://renzhn.github.io/archives/</guid>
-      <description>archives</description>
-    </item>
-    
-    <item>
-      <title>搜索</title>
-      <link>https://renzhn.github.io/search/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://renzhn.github.io/search/</guid>
-      <description>search</description>
     </item>
     
   </channel>

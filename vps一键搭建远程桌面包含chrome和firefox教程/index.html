@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang=zh><head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> VPS一键搭建远程桌面（包含Chrome和Firefox）教程 - VPS排行榜</title>
-    <meta name="description" content="前言 推荐一个Docker镜像，用来一键搭建桌面环境（包含Chrome和Firefox），支持 VNC、RDP 协议，也可用浏览器（noVNC）直接打开。
+<!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>VPS一键搭建远程桌面（包含Chrome和Firefox）教程 | VPS排行榜</title><meta name=keywords content><meta name=description content="前言 推荐一个Docker镜像，用来一键搭建桌面环境（包含Chrome和Firefox），支持 VNC、RDP 协议，也可用浏览器（noVNC）直接打开。
 这样可以在VPS或者群晖很方便地运行一个桌面环境，实现远程桌面连接！
 VPS安装Docker 使用官方一键安装脚本：
 curl -Lv get.docker.com|bash
@@ -12,14 +6,9 @@ curl -Lv get.docker.com|bash
 docker run -d -p 3389:3389 -p 5901:5901 -p 6901:6901 soff/tiny-remote-desktop
  浏览器（noVNC），直接访问：http://ip:6901，密码 vncpassword VNC：ip:5901，密码 vncpassword RDP：ip，用户名 user 密码 password   Credit: https://hub.docker.com/r/soff/tiny-remote-desktop
  其他镜像
-https://hub.docker.com/r/consol/centos-xfce-vnc
-https://hub.docker.com/r/soff/ubuntu-xfce-vnc
-https://github.com/fcwu/docker-ubuntu-vnc-desktop">
-    <link rel="canonical" href="https://renzhn.github.io/vps%E4%B8%80%E9%94%AE%E6%90%AD%E5%BB%BA%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2%E5%8C%85%E5%90%ABchrome%E5%92%8Cfirefox%E6%95%99%E7%A8%8B/">
-    <meta property="og:title" content="VPS一键搭建远程桌面（包含Chrome和Firefox）教程">
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="https://renzhn.github.io/vps%E4%B8%80%E9%94%AE%E6%90%AD%E5%BB%BA%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2%E5%8C%85%E5%90%ABchrome%E5%92%8Cfirefox%E6%95%99%E7%A8%8B/">
-    <meta property="og:description" content="前言 推荐一个Docker镜像，用来一键搭建桌面环境（包含Chrome和Firefox），支持 VNC、RDP 协议，也可用浏览器（noVNC）直接打开。
+https://hub.docker.com/r/consol/centos-xfce-vnc
+https://hub.docker.com/r/soff/ubuntu-xfce-vnc
+https://github.com/fcwu/docker-ubuntu-vnc-desktop"><meta name=author content="root"><link rel=canonical href=https://renzhn.github.io/vps%E4%B8%80%E9%94%AE%E6%90%AD%E5%BB%BA%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2%E5%8C%85%E5%90%ABchrome%E5%92%8Cfirefox%E6%95%99%E7%A8%8B/><link href=https://renzhn.github.io/assets/css/stylesheet.min.d1bc2b736056bd5698d770eeedc08a73bce9e6cebb30810f6f1b2c2048e46ab8.css integrity="sha256-0bwrc2BWvVaY13Du7cCKc7zp5s67MIEPbxssIEjkarg=" rel="preload stylesheet" as=style><link rel=icon href=https://renzhn.github.io/%3Clink%20/%20abs%20url%3E><link rel=icon type=image/png sizes=16x16 href=https://renzhn.github.io/%3Clink%20/%20abs%20url%3E><link rel=icon type=image/png sizes=32x32 href=https://renzhn.github.io/%3Clink%20/%20abs%20url%3E><link rel=apple-touch-icon href=https://renzhn.github.io/%3Clink%20/%20abs%20url%3E><link rel=mask-icon href=https://renzhn.github.io/%3Clink%20/%20abs%20url%3E><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><meta name=generator content="Hugo 0.79.0"><script type=application/javascript>var doNotTrack=false;if(!doNotTrack){window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;ga('create','G-C35YCQPF4H','auto');ga('send','pageview');}</script><script async src=https://www.google-analytics.com/analytics.js></script><meta property="og:title" content="VPS一键搭建远程桌面（包含Chrome和Firefox）教程"><meta property="og:description" content="前言 推荐一个Docker镜像，用来一键搭建桌面环境（包含Chrome和Firefox），支持 VNC、RDP 协议，也可用浏览器（noVNC）直接打开。
 这样可以在VPS或者群晖很方便地运行一个桌面环境，实现远程桌面连接！
 VPS安装Docker 使用官方一键安装脚本：
 curl -Lv get.docker.com|bash
@@ -27,90 +16,24 @@ curl -Lv get.docker.com|bash
 docker run -d -p 3389:3389 -p 5901:5901 -p 6901:6901 soff/tiny-remote-desktop
  浏览器（noVNC），直接访问：http://ip:6901，密码 vncpassword VNC：ip:5901，密码 vncpassword RDP：ip，用户名 user 密码 password   Credit: https://hub.docker.com/r/soff/tiny-remote-desktop
  其他镜像
-https://hub.docker.com/r/consol/centos-xfce-vnc
-https://hub.docker.com/r/soff/ubuntu-xfce-vnc
-https://github.com/fcwu/docker-ubuntu-vnc-desktop">
-    <meta property="og:site_name" content="VPS排行榜">
-    <link rel="stylesheet" href="https://renzhn.github.io/css/main.min.1320ea1eb1c3f7590d223fbf1f623569d1927328324553239f4d4e42a694e2dc.css" integrity="sha256-EyDqHrHD91kNIj&#43;/H2I1adGScygyRVMjn01OQqaU4tw=">
-    <meta name="generator" content="Hugo 0.79.0" />
-    <script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule="" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.js"></script>
-    
-</head>
-<body><header class="site-header">
-    <nav class="site-nav" role="navigation" aria-label="breadcrumb">
-    <ol itemscope itemtype="https://schema.org/BreadcrumbList" class="breadcrumb"><li class="breadcrumb-item  " 
-  itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-  <a itemtype="https://schema.org/Thing" itemprop="item" href="https://renzhn.github.io/">
-    <span itemprop="name">VPS排行榜</span>
-  </a>
-  <meta itemprop="position" content="0" />
-</li>/<li class="breadcrumb-item active hidden" aria-current="page"
-  itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-  <a itemtype="https://schema.org/Thing" itemprop="item" href="https://renzhn.github.io/vps%E4%B8%80%E9%94%AE%E6%90%AD%E5%BB%BA%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2%E5%8C%85%E5%90%ABchrome%E5%92%8Cfirefox%E6%95%99%E7%A8%8B/">
-    <span itemprop="name">vps%E4%B8%80%E9%94%AE%E6%90%AD%E5%BB%BA%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2%E5%8C%85%E5%90%ABchrome%E5%92%8Cfirefox%E6%95%99%E7%A8%8B</span>
-  </a>
-  <meta itemprop="position" content="1" />
-</li></ol>
-    </nav>
-    <h1 class="site-title hidden">
-		<a href="https://renzhn.github.io/">VPS排行榜</a>
-    </h1>
-</header>
-<main id="content">
-<article role="article" class="content post h-entry" itemscope="" itemtype="http://schema.org/BlogPosting">
-    <header class="post-header">        
-        <h2 class="post-title" itemprop="name headline">VPS一键搭建远程桌面（包含Chrome和Firefox）教程</h2>
-        <span class="post-meta">
-            <time class="date-published" datetime="2020-12-18T17:31:47&#43;07:00" itemprop="datePublished">
-                Fri, 18 Dec 2020
-            </time>
-            
-        </span>
-    </header>
-    <div class="post-content" itemprop="articleBody">
-        <p><img src="/images/remote-de.png" alt="远程桌面"></p>
-<h3 id="前言">前言</h3>
-<p>推荐一个Docker镜像，用来一键搭建桌面环境（包含Chrome和Firefox），支持 VNC、RDP 协议，也可用浏览器（noVNC）直接打开。</p>
-<p>这样可以在VPS或者群晖很方便地运行一个桌面环境，实现远程桌面连接！</p>
-<h3 id="vps安装docker">VPS安装Docker</h3>
-<p>使用官方一键安装脚本：</p>
-<p><code>curl -Lv get.docker.com|bash</code></p>
-<h3 id="使用方法">使用方法</h3>
-<p>输入命令：</p>
-<p><code>docker run -d -p 3389:3389 -p 5901:5901 -p 6901:6901 soff/tiny-remote-desktop</code></p>
-<ul>
-<li>浏览器（noVNC），直接访问：http://ip:6901，密码 vncpassword</li>
-<li>VNC：ip:5901，密码 vncpassword</li>
-<li>RDP：ip，用户名 user 密码 password</li>
-</ul>
-<blockquote>
-<p>Credit: 
-<a href="https://hub.docker.com/r/soff/tiny-remote-desktop" target="_blank" rel="nofollow noreferrer noopener">https://hub.docker.com/r/soff/tiny-remote-desktop</a></p>
-</blockquote>
-<p><strong>其他镜像</strong></p>
-<p>
-<a href="https://hub.docker.com/r/consol/centos-xfce-vnc" target="_blank" rel="nofollow noreferrer noopener">https://hub.docker.com/r/consol/centos-xfce-vnc</a></p>
-<p>
-<a href="https://hub.docker.com/r/soff/ubuntu-xfce-vnc" target="_blank" rel="nofollow noreferrer noopener">https://hub.docker.com/r/soff/ubuntu-xfce-vnc</a></p>
-<p>
-<a href="https://github.com/fcwu/docker-ubuntu-vnc-desktop" target="_blank" rel="nofollow noreferrer noopener">https://github.com/fcwu/docker-ubuntu-vnc-desktop</a></p>
-
-    </div>
-</article>
-<div class="pagination">
-    
-    <div class="prev"> <a href="https://renzhn.github.io/2021%E5%B9%B4%E4%BE%BF%E5%AE%9C%E9%AB%98%E6%80%A7%E4%BB%B7%E6%AF%94vps%E6%8E%A8%E8%8D%90%E6%9C%80%E6%96%B0/">Previous Post</a> </div>
-    
-    
-</div>
-
-
-        </main><footer class="site-footer">
-	<span class="left">Gohugo/0.79.0 </span> 
-	<span class="right">
-		<em>VPS排行榜</em>
-	</span>
-</footer>
-</body>
-</html>
+https://hub.docker.com/r/consol/centos-xfce-vnc
+https://hub.docker.com/r/soff/ubuntu-xfce-vnc
+https://github.com/fcwu/docker-ubuntu-vnc-desktop"><meta property="og:type" content="article"><meta property="og:url" content="https://renzhn.github.io/vps%E4%B8%80%E9%94%AE%E6%90%AD%E5%BB%BA%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2%E5%8C%85%E5%90%ABchrome%E5%92%8Cfirefox%E6%95%99%E7%A8%8B/"><meta property="article:published_time" content="2020-12-18T17:31:47+08:00"><meta property="article:modified_time" content="2020-12-18T17:31:47+08:00"><meta property="og:site_name" content="VPS排行榜"><meta name=twitter:card content="summary"><meta name=twitter:title content="VPS一键搭建远程桌面（包含Chrome和Firefox）教程"><meta name=twitter:description content="前言 推荐一个Docker镜像，用来一键搭建桌面环境（包含Chrome和Firefox），支持 VNC、RDP 协议，也可用浏览器（noVNC）直接打开。
+这样可以在VPS或者群晖很方便地运行一个桌面环境，实现远程桌面连接！
+VPS安装Docker 使用官方一键安装脚本：
+curl -Lv get.docker.com|bash
+使用方法 输入命令：
+docker run -d -p 3389:3389 -p 5901:5901 -p 6901:6901 soff/tiny-remote-desktop
+ 浏览器（noVNC），直接访问：http://ip:6901，密码 vncpassword VNC：ip:5901，密码 vncpassword RDP：ip，用户名 user 密码 password   Credit: https://hub.docker.com/r/soff/tiny-remote-desktop
+ 其他镜像
+https://hub.docker.com/r/consol/centos-xfce-vnc
+https://hub.docker.com/r/soff/ubuntu-xfce-vnc
+https://github.com/fcwu/docker-ubuntu-vnc-desktop"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BlogPosting","headline":"VPS一键搭建远程桌面（包含Chrome和Firefox）教程","name":"VPS一键搭建远程桌面（包含Chrome和Firefox）教程","description":"前言 推荐一个Docker镜像，用来一键搭建桌面环境（包含Chrome和Firefox），支持 VNC、RDP 协议，也可用浏览器（noVNC）直接打开。\n这样可以在VPS或者群晖很方便地运行一个桌面环境，实现远程桌面连接！\nVPS安装Docker 使用官方一键安装脚本：\ncurl -Lv get.docker.com|bash\n使用方法 输入命令： …","keywords":[],"articleBody":"前言 推荐一个Docker镜像，用来一键搭建桌面环境（包含Chrome和Firefox），支持 VNC、RDP 协议，也可用浏览器（noVNC）直接打开。\n这样可以在VPS或者群晖很方便地运行一个桌面环境，实现远程桌面连接！\nVPS安装Docker 使用官方一键安装脚本：\ncurl -Lv get.docker.com|bash\n使用方法 输入命令：\ndocker run -d -p 3389:3389 -p 5901:5901 -p 6901:6901 soff/tiny-remote-desktop\n 浏览器（noVNC），直接访问：http://ip:6901，密码 vncpassword VNC：ip:5901，密码 vncpassword RDP：ip，用户名 user 密码 password   Credit: https://hub.docker.com/r/soff/tiny-remote-desktop\n 其他镜像\nhttps://hub.docker.com/r/consol/centos-xfce-vnc\nhttps://hub.docker.com/r/soff/ubuntu-xfce-vnc\nhttps://github.com/fcwu/docker-ubuntu-vnc-desktop\n","wordCount":"36","inLanguage":"en","datePublished":"2020-12-18T17:31:47+08:00","dateModified":"2020-12-18T17:31:47+08:00","author":{"@type":"Person","name":"root"},"mainEntityOfPage":{"@type":"WebPage","@id":"https://renzhn.github.io/vps%E4%B8%80%E9%94%AE%E6%90%AD%E5%BB%BA%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2%E5%8C%85%E5%90%ABchrome%E5%92%8Cfirefox%E6%95%99%E7%A8%8B/"},"publisher":{"@type":"Organization","name":"VPS排行榜","logo":{"@type":"ImageObject","url":"https://renzhn.github.io/%3Clink%20/%20abs%20url%3E"}}}</script></head><body><script>if(localStorage.getItem("pref-theme")==="dark"){document.body.classList.add('dark');}else if(localStorage.getItem("pref-theme")==="light"){document.body.classList.remove('dark')}else if(window.matchMedia('(prefers-color-scheme: dark)').matches){document.body.classList.add('dark');}</script><noscript><style type=text/css>.theme-toggle,.top-link{display:none}</style></noscript><header class=header><nav class=nav><div class=logo><a href=https://renzhn.github.io accesskey=h><img src=/apple-touch-icon.png alt=logo aria-label=logo height=35>VPS排行榜</a>
+<span class=logo-switches><span class=theme-toggle><a id=theme-toggle accesskey=t><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></a></span></span></div><ul class=menu id=menu onscroll=menu_on_scroll()><li><a href=https://renzhn.github.io/archives title=归档><span>归档</span></a></li><li><a href=https://renzhn.github.io/search/ title=搜索><span>搜索</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><h1 class=post-title>VPS一键搭建远程桌面（包含Chrome和Firefox）教程</h1><div class=post-meta>December 18, 2020&nbsp;·&nbsp;1 min&nbsp;·&nbsp;root</div></header><div class=post-content><p><img src=/images/remote-de.png alt=远程桌面></p><h3 id=前言>前言<a hidden class=anchor aria-hidden=true href=#前言>#</a></h3><p>推荐一个Docker镜像，用来一键搭建桌面环境（包含Chrome和Firefox），支持 VNC、RDP 协议，也可用浏览器（noVNC）直接打开。</p><p>这样可以在VPS或者群晖很方便地运行一个桌面环境，实现远程桌面连接！</p><h3 id=vps安装docker>VPS安装Docker<a hidden class=anchor aria-hidden=true href=#vps安装docker>#</a></h3><p>使用官方一键安装脚本：</p><p><code>curl -Lv get.docker.com|bash</code></p><h3 id=使用方法>使用方法<a hidden class=anchor aria-hidden=true href=#使用方法>#</a></h3><p>输入命令：</p><p><code>docker run -d -p 3389:3389 -p 5901:5901 -p 6901:6901 soff/tiny-remote-desktop</code></p><ul><li>浏览器（noVNC），直接访问：http://ip:6901，密码 vncpassword</li><li>VNC：ip:5901，密码 vncpassword</li><li>RDP：ip，用户名 user 密码 password</li></ul><blockquote><p>Credit: <a href=https://hub.docker.com/r/soff/tiny-remote-desktop>https://hub.docker.com/r/soff/tiny-remote-desktop</a></p></blockquote><p><strong>其他镜像</strong></p><p><a href=https://hub.docker.com/r/consol/centos-xfce-vnc>https://hub.docker.com/r/consol/centos-xfce-vnc</a></p><p><a href=https://hub.docker.com/r/soff/ubuntu-xfce-vnc>https://hub.docker.com/r/soff/ubuntu-xfce-vnc</a></p><p><a href=https://github.com/fcwu/docker-ubuntu-vnc-desktop>https://github.com/fcwu/docker-ubuntu-vnc-desktop</a></p></div><footer class=post-footer></footer></article></main><footer class=footer><span>&copy; 2020 <a href=https://renzhn.github.io>VPS排行榜</a></span>
+<span>&#183;</span>
+<span>Powered by <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a></span>
+<span>&#183;</span>
+<span>Theme <a href=https://git.io/hugopapermod rel=noopener target=_blank>PaperMod</a></span></footer><button class=top-link id=top-link type=button aria-label="go to top" title="Go to Top" accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6"><path d="M12 6H0l6-6z"/></svg></button>
+<script>window.onload=function(){if(localStorage.getItem("menu-scroll-position")){document.getElementById('menu').scrollLeft=localStorage.getItem("menu-scroll-position");}}
+var mybutton=document.getElementById("top-link");window.onscroll=function(){if(document.body.scrollTop>800||document.documentElement.scrollTop>800){mybutton.style.visibility="visible";mybutton.style.opacity="1";}else{mybutton.style.visibility="hidden";mybutton.style.opacity="0";}};mybutton.onclick=function(){document.body.scrollTop=0;document.documentElement.scrollTop=0;window.location.hash=''}
+function menu_on_scroll(){localStorage.setItem("menu-scroll-position",document.getElementById('menu').scrollLeft);}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{if(document.body.className.includes("dark")){document.body.classList.remove('dark');localStorage.setItem("pref-theme",'light');}else{document.body.classList.add('dark');localStorage.setItem("pref-theme",'dark');}})</script></body></html>

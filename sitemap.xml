@@ -3,13 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://renzhn.github.io/vps%E4%B8%80%E9%94%AE%E6%90%AD%E5%BB%BA%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2%E5%8C%85%E5%90%ABchrome%E5%92%8Cfirefox%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://renzhn.github.io/posts/2021%E5%B9%B4%E4%BE%BF%E5%AE%9C%E9%AB%98%E6%80%A7%E4%BB%B7%E6%AF%94vps%E6%8E%A8%E8%8D%90%E6%9C%80%E6%96%B0/</loc>
+    <lastmod>2020-12-17T16:46:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://renzhn.github.io/posts/</loc>
     <lastmod>2020-12-18T17:31:47+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://renzhn.github.io/2021%E5%B9%B4%E4%BE%BF%E5%AE%9C%E9%AB%98%E6%80%A7%E4%BB%B7%E6%AF%94vps%E6%8E%A8%E8%8D%90%E6%9C%80%E6%96%B0/</loc>
-    <lastmod>2020-12-17T16:46:27+08:00</lastmod>
+    <loc>https://renzhn.github.io/posts/vps%E4%B8%80%E9%94%AE%E6%90%AD%E5%BB%BA%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2%E5%8C%85%E5%90%ABchrome%E5%92%8Cfirefox%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2020-12-18T17:31:47+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://renzhn.github.io/</loc>
+    <lastmod>2020-12-18T17:31:47+08:00</lastmod>
   </url>
   
   <url>
@@ -21,7 +31,11 @@
   </url>
   
   <url>
-    <loc>https://renzhn.github.io/</loc>
+    <loc>https://renzhn.github.io/archives/</loc>
+  </url>
+  
+  <url>
+    <loc>https://renzhn.github.io/search/</loc>
   </url>
   
 </urlset>
