@@ -60,7 +60,7 @@ Vicer脚本目前不支持重装为CentOS 7系统，支持CentOS 6.9以下版本
       
       <guid>https://renzhn.github.io/posts/vps-remote-de/</guid>
       <description>前言 推荐一个Docker镜像，用来一键搭建桌面环境（包含Chrome和Firefox），支持 VNC、RDP 协议，也可用浏览器（noVNC）直接打开。
-这样可以在VPS或者群晖很方便地运行一个桌面环境，实现远程桌面连接！
+这样可以在VPS或者群晖很方便地搭建一个桌面环境，实现远程桌面连接！
 安装Docker 使用官方一键安装脚本：
 curl -Lv get.docker.com|bash
 使用方法 输入命令：
