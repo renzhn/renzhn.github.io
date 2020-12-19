@@ -5,13 +5,13 @@
     <link>https://renzhn.github.io/posts/</link>
     <description>Recent content in Posts on VPS百科</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 19 Dec 2020 10:31:47 +0800</lastBuildDate><atom:link href="https://renzhn.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Dec 2020 19:01:06 +0800</lastBuildDate><atom:link href="https://renzhn.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2021年便宜高性价比VPS推荐（最新）</title>
-      <link>https://renzhn.github.io/posts/vps-rank/</link>
+      <link>https://renzhn.github.io/posts/cheap-vps/</link>
       <pubDate>Thu, 17 Dec 2020 16:46:27 +0800</pubDate>
       
-      <guid>https://renzhn.github.io/posts/vps-rank/</guid>
+      <guid>https://renzhn.github.io/posts/cheap-vps/</guid>
       <description>前言 2021年有哪些便宜VPS？最便宜VPS是哪家？VPS市场几年时间变化甚多，有的一路涨价，有的卷款跑路，有的变化路由，有的带宽缩水，那么2021年还有哪些VPS值得推荐呢？
 一、Vultr 推荐指数： ★★★★★
 全球最优秀的VPS服务商之一，美国Choopa机房的旗下的业务，产品性能比较优越，因而在业内口碑还算是比较好的。机器部署在全球17个数据中心，包括日本、韩国、新加坡、韩国、美国、荷兰等；支持：IPV6、按小时付款、快照、区块存储、自定义ISO等多种特性。KVM架构，1Gbps带宽，50G免费备份空间，可以一键将备份好的实例还原到新建的实例里。迈阿密等延时高的机房挺稳定的，东京延时低但丢包率有点高，支持支付宝、Paypal、信用卡、Bitcoin付款，2.5$/mo起。按小时计费，可以通过重建实例实现自由切换IP.
@@ -25,6 +25,21 @@ https://www.vultr.com
 https://cloudpingtest.com/vultr
 网络测试
    地理位置 官方Looking Glass地址     (Asia)Tokyo, Japan[日本 东京] https://hnd-jp-ping.vultr.com   Singapore[新加坡] https://sgp-ping.vultr.com   (AU) Sydney, Australia[悉尼] https://syd-au-ping.vultr.com   (EU) Frankfurt, DE[德国 法兰克福] https://fra-de-ping.vultr.com   (EU) Amsterdam, NL[荷兰 阿姆斯特丹] https://ams-nl-ping.vultr.com   (EU) London, UK[英国 伦敦] https://lon-gb-ping.</description>
+    </item>
+    
+    <item>
+      <title>Nali：一个离线查询 IP 地理信息和 CDN 提供商的终端利器</title>
+      <link>https://renzhn.github.io/posts/nali/</link>
+      <pubDate>Sat, 19 Dec 2020 19:01:06 +0800</pubDate>
+      
+      <guid>https://renzhn.github.io/posts/nali/</guid>
+      <description>什么是 Nali dig、nslookup、traceroute 等都是非常实用的网络调试工具，Nali 是一个可以自动解析这些工具 stdout 中的 IP 并附上所属 ISP 和地理信息，对这些已是瑞士军刀般的工具可谓如虎添翼。
+Nali 取自中文「哪里」。Nali 一开始是数年前由 surfchen 用 C 和 Perl 写成的小工具（C 用于解析纯真 IP 数据库，Perl 用于解析 stdout），如今已经失传。
+今天给大家介绍两款基于 GO 语言和 Nodejs 开发的，且具有更多高级功能的新一代 Nali。
+Nali CLI Nali CLI 采用 Node.js 开发，在安装之前，你的环境必须已经具备 Node.js 环境。
+项目地址：
+ GitHub: https://github.com/sukkaw/nali-cli 官网：https://nali.skk.moe  安装 对于环境中有 Node.js 的，可以直接通过 NPM 和 Yarn 安装：
+# NPM $ npm i nali-cli -g # Yarn $ yarn global add nali-cli Nali CLI 也有预编译好的供 macOS x64 和 Linux x64 的二进制文件，可以在 GitHub Repo 中的 bin 目录中下载。</description>
     </item>
     
     <item>
