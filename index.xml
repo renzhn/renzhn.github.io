@@ -5,7 +5,7 @@
     <link>https://renzhn.github.io/</link>
     <description>Recent content on VPS百科</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 19 Dec 2020 10:29:00 +0800</lastBuildDate><atom:link href="https://renzhn.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Dec 2020 10:31:47 +0800</lastBuildDate><atom:link href="https://renzhn.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2021年便宜高性价比VPS推荐（最新）</title>
       <link>https://renzhn.github.io/posts/vps-rank/</link>
@@ -28,18 +28,33 @@ https://cloudpingtest.com/vultr
     </item>
     
     <item>
-      <title>一键脚本</title>
-      <link>https://renzhn.github.io/posts/onekey-scripts/</link>
-      <pubDate>Sat, 19 Dec 2020 10:29:00 +0800</pubDate>
+      <title>Linux VPS无限制一键全自动DD安装Windows/CentOS/Debian/Ubuntu脚本</title>
+      <link>https://renzhn.github.io/posts/vps-dd/</link>
+      <pubDate>Sat, 19 Dec 2020 10:31:47 +0800</pubDate>
       
-      <guid>https://renzhn.github.io/posts/onekey-scripts/</guid>
-      <description>Docker一键安装脚本 官方一键安装脚本：
-curl -Lv get.docker.com|bash
-远程桌面一键安装脚本 VPS一键搭建远程桌面（包含Chrome和Firefox）教程</description>
+      <guid>https://renzhn.github.io/posts/vps-dd/</guid>
+      <description>本脚本作者：Vicer
+简介 突破没有VNC，没有救援模式，内存比dd包小的限制。使用Debian Live CD中的busybox做中间媒介，经过复杂的处理，使本机的网络参数传进Windows操作系统中，即使没有DHCP能够让Windows获取网络参数，也能让Windows操作系统在开机的第一时间能够连通网络。
+允许使用的环境 1.独立服务器
+2.虚拟化：KVM/XEN/VMWARE/Hyper-V等（注意：不支持Docker、OpenVZ、LXC等）
+系统需求 1、Debian/Ubuntu/CentOS系统（由GRUB引导）
+2、wget用来下载文件，获取公网IP
+3、ip获取网关，掩码等
+4、sed、awk、grep处理文本
+5、VNC远程桌面(可选)
+6、无DHCP时额外需求: iconv
+# Debian/Ubuntu # 一般自带 # RedHat/CentOS yum install glibc-common 使用教程 注意事项：
+Vicer脚本目前不支持重装为CentOS 7系统，支持CentOS 6.9以下版本。
+重装的系统源自官方发行版。
+安装过程全自动进行，无需VNC操作，无需进入救援模式。
+系统安装完成后的默认用户名为root，默认密码为:MoeClub.org
+重装为CentOS 6.9：
+# CentOS 6.9 64位： bash &amp;lt;(wget --no-check-certificate -qO- &amp;#39;https://moeclub.org/attachment/LinuxShell/InstallNET.sh&amp;#39;) -c 6.9 -v 64 -a # CentOS 6.9 32位： bash &amp;lt;(wget --no-check-certificate -qO- &amp;#39;https://moeclub.org/attachment/LinuxShell/InstallNET.sh&amp;#39;) -c 6.9 -v 32 -a 重装为Debian： 以下命令中的 -d 后面为Debian版本号，-v 后面为64位/32位，可根据需求进行替换。
+# Debian 8 64位： bash &amp;lt;(wget --no-check-certificate -qO- &amp;#39;https://moeclub.</description>
     </item>
     
     <item>
-      <title>VPS一键搭建远程桌面（包含Chrome和Firefox）教程</title>
+      <title>Linux VPS一键搭建远程桌面（包含Chrome和Firefox）教程</title>
       <link>https://renzhn.github.io/posts/vps-remote-de/</link>
       <pubDate>Fri, 18 Dec 2020 17:31:47 +0800</pubDate>
       
