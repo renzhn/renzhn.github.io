@@ -5,7 +5,7 @@
     <link>https://renzhn.github.io/</link>
     <description>Recent content on VPS百科</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 19 Dec 2020 19:01:06 +0800</lastBuildDate><atom:link href="https://renzhn.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Dec 2020 08:31:47 +0800</lastBuildDate><atom:link href="https://renzhn.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2021年便宜高性价比VPS推荐（最新）</title>
       <link>https://renzhn.github.io/posts/cheap-vps/</link>
@@ -28,15 +28,33 @@ https://cloudpingtest.com/vultr
     </item>
     
     <item>
+      <title>Glances：跨平台的系统性能监控利器</title>
+      <link>https://renzhn.github.io/posts/glances/</link>
+      <pubDate>Sun, 20 Dec 2020 08:31:47 +0800</pubDate>
+      
+      <guid>https://renzhn.github.io/posts/glances/</guid>
+      <description>介绍 Glances 是一个跨平台的系统监控工具，支持GNU/Linux, BSD, Mac OS and Windows，可以作为top/htop的替代。由 Python 语言编写，使用 Python 的 psutil 库来抓取系统数据。可以监控 CPU、负载均衡、内存、网络设备、磁盘 I/O、进程和文件系统使用等。
+Glances 既可以在终端界面显示，也可以通过Web界面展示系统监控信息。并且这两种显示方式都可以根据窗口大小自动调整界面元素。
+Glances工具可以监控的系统信息如下：
+ CPU使用率 内存使用率 内核统计信息和运行队列信息 磁盘I/O速度、传输和读/写比率 磁盘适配器 网络I/O速度、传输和读/写比率 页面监控 进程监控-消耗资源最多的进程 计算机信息和系统资源  项目地址：
+GitHub：https://github.com/nicolargo/glances
+安装 Glances的安装方式有：
+ 官方一键脚本 pip命令安装 软件源安装 Docker安装  最简便的办法，使用 Glances 开发者提供的一键安装脚本：
+curl -L https://bit.ly/glances | bash 或者
+wget -O- https://bit.ly/glances | bash Glances 一般已集成到大多数 Linux 发行版的官方软件源中，可以直接使用系统的包管理器（如 apt-get、yum）安装：
+# Debian/Ubuntu sudo apt install -y glances # CentOS sudo yum install epel* -yyum -y install glances 当然也可以使用 Python 的包管理器（pip 命令）进行安装：</description>
+    </item>
+    
+    <item>
       <title>Nali：一个离线查询 IP 地理信息和 CDN 提供商的终端利器</title>
       <link>https://renzhn.github.io/posts/nali/</link>
       <pubDate>Sat, 19 Dec 2020 19:01:06 +0800</pubDate>
       
       <guid>https://renzhn.github.io/posts/nali/</guid>
       <description>什么是 Nali dig、nslookup、traceroute 等都是非常实用的网络调试工具，Nali 是一个可以自动解析这些工具 stdout 中的 IP 并附上所属 ISP 和地理信息，对这些已是瑞士军刀般的工具可谓如虎添翼。
-Nali 取自中文「哪里」。Nali 一开始是数年前由 surfchen 用 C 和 Perl 写成的小工具（C 用于解析纯真 IP 数据库，Perl 用于解析 stdout），如今已经失传。
-今天给大家介绍两款基于 GO 语言和 Nodejs 开发的，且具有更多高级功能的新一代 Nali。
-Nali CLI Nali CLI 采用 Node.js 开发，在安装之前，你的环境必须已经具备 Node.js 环境。
+Nali 取自中文「哪里」。Nali 一开始是数年前由 surfchen 用 C 和 Perl 写成的小工具（C 用于解析纯真 IP 数据库，Perl 用于解析 stdout）。
+今天给大家介绍两款新的基于 Node.js 语言和 Go语言开发的，且具有更多高级功能的新一代 Nali。
+Nali CLI（Node.js版本） Nali CLI 采用 Node.js 开发，在安装之前，你的环境必须已经具备 Node.js 环境。
 项目地址：
  GitHub: https://github.com/sukkaw/nali-cli 官网：https://nali.skk.moe  安装 对于环境中有 Node.js 的，可以直接通过 NPM 和 Yarn 安装：
 # NPM $ npm i nali-cli -g # Yarn $ yarn global add nali-cli Nali CLI 也有预编译好的供 macOS x64 和 Linux x64 的二进制文件，可以在 GitHub Repo 中的 bin 目录中下载。</description>
