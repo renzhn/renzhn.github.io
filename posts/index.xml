@@ -57,7 +57,7 @@ Nali 取自中文「哪里」。Nali 一开始是数年前由 surfchen 用 C 和
 Nali CLI（Node.js版本） Nali CLI 采用 Node.js 开发，在安装之前，你的环境必须已经具备 Node.js 环境。
 项目地址：
  GitHub: https://github.com/sukkaw/nali-cli 官网：https://nali.skk.moe  安装 对于环境中有 Node.js 的，可以直接通过 NPM 和 Yarn 安装：
-# NPM $ npm i nali-cli -g # Yarn $ yarn global add nali-cli Nali CLI 也有预编译好的供 macOS x64 和 Linux x64 的二进制文件，可以在 GitHub Repo 中的 bin 目录中下载。</description>
+# NPM $ npm i nali-cli -g # Yarn $ yarn global add nali-cli Nali CLI 也有预编译好的供 macOS x64 和 Linux x64 的二进制文件，可以在 GitHub Repo 中的 bin目录 中下载。</description>
     </item>
     
     <item>
