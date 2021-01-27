@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on VPS百科</title>
+    <title>Posts on Superuser</title>
     <link>https://renzhn.github.io/posts/</link>
-    <description>Recent content in Posts on VPS百科</description>
+    <description>Recent content in Posts on Superuser</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 20 Dec 2020 08:31:47 +0800</lastBuildDate><atom:link href="https://renzhn.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Jan 2021 16:21:09 +0800</lastBuildDate><atom:link href="https://renzhn.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2021年便宜高性价比VPS推荐（最新）</title>
       <link>https://renzhn.github.io/posts/cheap-vps/</link>
@@ -25,6 +25,48 @@ https://www.vultr.com
 https://cloudpingtest.com/vultr
 网络测试
    地理位置 官方Looking Glass地址     (Asia)Tokyo, Japan[日本 东京] https://hnd-jp-ping.vultr.com   Singapore[新加坡] https://sgp-ping.vultr.com   (AU) Sydney, Australia[悉尼] https://syd-au-ping.vultr.com   (EU) Frankfurt, DE[德国 法兰克福] https://fra-de-ping.vultr.com   (EU) Amsterdam, NL[荷兰 阿姆斯特丹] https://ams-nl-ping.vultr.com   (EU) London, UK[英国 伦敦] https://lon-gb-ping.</description>
+    </item>
+    
+    <item>
+      <title>CloudflareSpeedTest：CF节点测速工具</title>
+      <link>https://renzhn.github.io/posts/cloudflare-speedtest/</link>
+      <pubDate>Wed, 27 Jan 2021 16:21:09 +0800</pubDate>
+      
+      <guid>https://renzhn.github.io/posts/cloudflare-speedtest/</guid>
+      <description>介绍 CloudflareSpeedTest，用于测试Cloudflare节点延迟和下载速度的工具，支持ipv6。国外很多网站都在使用 Cloudflare CDN，但分配给中国访客的 IP 并不友好。虽然 Cloudflare 公开了所有 IP 段 ，但想要在这么多 IP 中找到适合自己的，怕是要累死，所以就有了这个软件。该软件可以测试 Cloudflare CDN 延迟和速度，获取最快 IP (IPv4+IPv6)。
+项目地址 GitHub：https://github.com/XIU2/CloudflareSpeedTest</description>
+    </item>
+    
+    <item>
+      <title>国内用户一键安装Docker并配置镜像源</title>
+      <link>https://renzhn.github.io/posts/install-docker/</link>
+      <pubDate>Wed, 27 Jan 2021 15:54:07 +0800</pubDate>
+      
+      <guid>https://renzhn.github.io/posts/install-docker/</guid>
+      <description>安装Docker 官方源（国内访问较慢）
+curl -fsSL https://get.docker.com | bash 阿里源
+curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun 或中国区Azure源
+curl -fsSL https://get.docker.com | bash -s docker --mirror AzureChinaCloud 设为开机自启
+systemctl enable docker 启动Docker
+systemctl start docker 配置国内镜像源 mkdir -p /etc/docker tee /etc/docker/daemon.json &amp;lt;&amp;lt;-&amp;#39;EOF&amp;#39; { &amp;#34;registry-mirrors&amp;#34;: [ &amp;#34;https://0b27f0a81a00f3560fbdc00ddd2f99e0.mirror.swr.myhuaweicloud.com&amp;#34;, &amp;#34;https://ypzju6vq.mirror.aliyuncs.com&amp;#34;, &amp;#34;https://registry.docker-cn.com&amp;#34;, &amp;#34;http://hub-mirror.c.163.com&amp;#34;, &amp;#34;https://docker.mirrors.ustc.edu.cn&amp;#34; ] } EOF systemctl daemon-reload systemctl restart docker 参考：https://www.hostloc.com/thread-800586-1-1.html</description>
+    </item>
+    
+    <item>
+      <title>用VPS搭建SeedBox一键脚本集合</title>
+      <link>https://renzhn.github.io/posts/seedbox/</link>
+      <pubDate>Sun, 10 Jan 2021 08:57:22 +0800</pubDate>
+      
+      <guid>https://renzhn.github.io/posts/seedbox/</guid>
+      <description>SeedBox即种子盒子，是PT党专门用来刷数据的神器，一般由独立服务器或VPS搭建而成。
+由于国内家用宽带往往没有公网IP，上传带宽又有限，所以很多人选择用SeedBox做种上传，可以说是刷PT神器。不过直接租个盒子，价格较高，于是可以租个VPS来搭建一个盒子。
+VPS初始状态下为纯净系统，需要安装各种软件才能使用。本文介绍了三种非常好用SeedBox脚本项目，每个项目都提供了一键安装脚本，可以方便迅速地搭建起来SeedBox环境。
+购买VPS 由于刷PT往往需要储存大量的文件，建议购买一台大盘鸡。
+VPS的购买推荐可以参考这篇，如果用BuyVM家VPS的话推荐使用挂载块存储的方式。预算高的话可以租Hetzner的独立服务器。
+ 如果你还没有购买Seedbox服务器的话，可以考虑一下Servarica服务器。他们的特价VPS套餐提供3核CPU, 3 GB内存，以及3 TB的储存空间，采用KVM虚拟化，是非常理想的SeedBox服务器, 价格仅需$10每月。
+如果你没有那么大的硬盘需求，且网络要求不是特别高的话，可以考虑Hostsolutions.ro罗马尼亚大盘鸡。罗马尼亚的版权保护较为宽松，他们家1核/2 GB内存/1 TB储存空间的KVM机器仅需40欧元一年。
+ Swizzin Swizzin是一个轻量级、模块化的SeedBox解决方案，可以安装在Debian 9/10或Ubuntu 16.04/18.04/20.04上。QuickBox的软件包已经被移植过来，包括Web控制面板。
+Swizzin可以安装如下的组件：
+ PT下载：qBittorrent, rtorrent/rutorrent, flood, Transmission, Deluge 影音播放分享：Plex, Emby, ffmpeg 同步：rclone, btsync, syncthing 其他影音相关：bazarr, headphones, jackett, lidarr, quassel, sickchill, sonarr, subsonic, ombi, 等等…… 资源获取：Couchpotato, rapidleech, sickgear, 等等…… 文件管理：shellinabox, filebrowser, vsftpd, 等等…… 网盘：Nextcloud Usenet: nzbget, nzbhydra, 等等…… Linux桌面环境：X2Go 挖矿：xmar-stak (请不要在VPS上挖矿，除非是独享CPU类型的VPS，否则可能被主机商封禁) 聊天室：ZNC, the Lounge Web服务器：Nginx, LEMP (Webmin全家桶), Let’s Encrypt  项目地址 GitHub: https://github.</description>
     </item>
     
     <item>

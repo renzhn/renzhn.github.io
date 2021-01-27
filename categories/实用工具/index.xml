@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>实用工具 on VPS百科</title>
+    <title>实用工具 on Superuser</title>
     <link>https://renzhn.github.io/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/</link>
-    <description>Recent content in 实用工具 on VPS百科</description>
+    <description>Recent content in 实用工具 on Superuser</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 20 Dec 2020 08:31:47 +0800</lastBuildDate><atom:link href="https://renzhn.github.io/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Jan 2021 16:21:09 +0800</lastBuildDate><atom:link href="https://renzhn.github.io/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CloudflareSpeedTest：CF节点测速工具</title>
+      <link>https://renzhn.github.io/posts/cloudflare-speedtest/</link>
+      <pubDate>Wed, 27 Jan 2021 16:21:09 +0800</pubDate>
+      
+      <guid>https://renzhn.github.io/posts/cloudflare-speedtest/</guid>
+      <description>介绍 CloudflareSpeedTest，用于测试Cloudflare节点延迟和下载速度的工具，支持ipv6。国外很多网站都在使用 Cloudflare CDN，但分配给中国访客的 IP 并不友好。虽然 Cloudflare 公开了所有 IP 段 ，但想要在这么多 IP 中找到适合自己的，怕是要累死，所以就有了这个软件。该软件可以测试 Cloudflare CDN 延迟和速度，获取最快 IP (IPv4+IPv6)。
+项目地址 GitHub：https://github.com/XIU2/CloudflareSpeedTest</description>
+    </item>
+    
     <item>
       <title>Glances：跨平台的系统性能监控利器</title>
       <link>https://renzhn.github.io/posts/glances/</link>

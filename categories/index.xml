@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on VPS百科</title>
+    <title>Categories on Superuser</title>
     <link>https://renzhn.github.io/categories/</link>
-    <description>Recent content in Categories on VPS百科</description>
+    <description>Recent content in Categories on Superuser</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 20 Dec 2020 08:31:47 +0800</lastBuildDate><atom:link href="https://renzhn.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Jan 2021 16:21:09 +0800</lastBuildDate><atom:link href="https://renzhn.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>实用工具</title>
       <link>https://renzhn.github.io/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/</link>
-      <pubDate>Sun, 20 Dec 2020 08:31:47 +0800</pubDate>
+      <pubDate>Wed, 27 Jan 2021 16:21:09 +0800</pubDate>
       
       <guid>https://renzhn.github.io/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/</guid>
       <description></description>
@@ -18,7 +18,7 @@
     <item>
       <title>一键脚本</title>
       <link>https://renzhn.github.io/categories/%E4%B8%80%E9%94%AE%E8%84%9A%E6%9C%AC/</link>
-      <pubDate>Sat, 19 Dec 2020 10:31:47 +0800</pubDate>
+      <pubDate>Wed, 27 Jan 2021 15:54:07 +0800</pubDate>
       
       <guid>https://renzhn.github.io/categories/%E4%B8%80%E9%94%AE%E8%84%9A%E6%9C%AC/</guid>
       <description></description>
