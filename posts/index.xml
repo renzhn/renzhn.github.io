@@ -108,8 +108,11 @@ Nali CLI（Node.js版本） Nali CLI 采用 Node.js 开发，在安装之前，�
       <pubDate>Sat, 19 Dec 2020 10:31:47 +0800</pubDate>
       
       <guid>https://renzhn.github.io/posts/vps-dd/</guid>
-      <description>本脚本作者：Vicer
-简介 突破没有VNC，没有救援模式，内存比dd包小的限制。使用Debian Live CD中的busybox做中间媒介，经过复杂的处理，使本机的网络参数传进Windows操作系统中，即使没有DHCP能够让Windows获取网络参数，也能让Windows操作系统在开机的第一时间能够连通网络。
+      <description>本脚本作者：Vicer, dansnow
+真·究极·一键重装脚本 支持重装的系统：
+ Debian 9/10 Ubuntu 18.04/16.04 CentOS 6/7 自定义DD镜像  特性/优化：
+ 自动获取IP地址、网关、子网掩码 自动判断网络环境，选择国内/外镜像，再也不用担心卡半天了 超级懒人一键化，无需复杂的命令 解决萌咖脚本中一些导致安装错误的问题 CentOS 7 镜像抛弃LVM，回归ext4，减少不稳定因素  使用方法非常简单：
+wget --no-check-certificate -O AutoReinstall.sh https://git.io/AutoReinstall.sh &amp;amp;&amp;amp; bash AutoReinstall.sh 简介 突破没有VNC，没有救援模式，内存比dd包小的限制。使用Debian Live CD中的busybox做中间媒介，经过复杂的处理，使本机的网络参数传进Windows操作系统中，即使没有DHCP能够让Windows获取网络参数，也能让Windows操作系统在开机的第一时间能够连通网络。
 允许使用的环境 1.独立服务器
 2.虚拟化：KVM/XEN/VMWARE/Hyper-V等（注意：不支持Docker、OpenVZ、LXC等）
 系统需求 1、Debian/Ubuntu/CentOS系统（由GRUB引导）
@@ -124,8 +127,7 @@ Vicer脚本目前不支持重装为CentOS 7系统，支持CentOS 6.9以下版本
 安装过程全自动进行，无需VNC操作，无需进入救援模式。
 系统安装完成后的默认用户名为root，默认密码为:MoeClub.org
 重装为CentOS 6.9：
-# CentOS 6.9 64位： bash &amp;lt;(wget --no-check-certificate -qO- &amp;#39;https://moeclub.org/attachment/LinuxShell/InstallNET.sh&amp;#39;) -c 6.9 -v 64 -a # CentOS 6.9 32位： bash &amp;lt;(wget --no-check-certificate -qO- &amp;#39;https://moeclub.org/attachment/LinuxShell/InstallNET.sh&amp;#39;) -c 6.9 -v 32 -a 重装为Debian： 以下命令中的 -d 后面为Debian版本号，-v 后面为64位/32位，可根据需求进行替换。
-# Debian 8 64位： bash &amp;lt;(wget --no-check-certificate -qO- &amp;#39;https://moeclub.</description>
+# CentOS 6.9 64位： bash &amp;lt;(wget --no-check-certificate -qO- &amp;#39;https://moeclub.</description>
     </item>
     
     <item>
