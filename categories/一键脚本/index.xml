@@ -12,12 +12,13 @@
       <pubDate>Wed, 27 Jan 2021 15:54:07 +0800</pubDate>
       
       <guid>https://renzhn.github.io/posts/install-docker/</guid>
-      <description>安装Docker 官方源（国内访问较慢）
-curl -fsSL https://get.docker.com | bash 阿里源
-curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun 或中国区Azure源
-curl -fsSL https://get.docker.com | bash -s docker --mirror AzureChinaCloud 设为开机自启
-systemctl enable docker 启动Docker
-systemctl start docker 配置国内镜像源 mkdir -p /etc/docker tee /etc/docker/daemon.json &amp;lt;&amp;lt;-&amp;#39;EOF&amp;#39; { &amp;#34;registry-mirrors&amp;#34;: [ &amp;#34;https://0b27f0a81a00f3560fbdc00ddd2f99e0.mirror.swr.myhuaweicloud.com&amp;#34;, &amp;#34;https://ypzju6vq.mirror.aliyuncs.com&amp;#34;, &amp;#34;https://registry.docker-cn.com&amp;#34;, &amp;#34;http://hub-mirror.c.163.com&amp;#34;, &amp;#34;https://docker.mirrors.ustc.edu.cn&amp;#34; ] } EOF systemctl daemon-reload systemctl restart docker 参考：https://www.hostloc.com/thread-800586-1-1.html</description>
+      <description>安装Docker 使用官方源安装（国内直接访问较慢）：
+curl -fsSL https://get.docker.com | bash 使用阿里源安装：
+curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun 使用中国区Azure源安装：
+curl -fsSL https://get.docker.com | bash -s docker --mirror AzureChinaCloud 设置开机自启：
+systemctl enable docker 启动Docker：
+systemctl start docker 一键安装最新版Docker Compose：
+COMPOSE_VERSION=`git ls-remote https://github.com/docker/compose | grep refs/tags | grep -oP &amp;#34;[0-9]+\.[0-9][0-9]+\.[0-9]+$&amp;#34; | sort --version-sort | tail -n 1` sh -c &amp;#34;curl -L https://github.com/docker/compose/releases/download/${COMPOSE_VERSION}/docker-compose-`uname -s`-`uname -m` &amp;gt; /usr/local/bin/docker-compose&amp;#34; chmod +x /usr/local/bin/docker-compose 配置国内镜像源 mkdir -p /etc/docker tee /etc/docker/daemon.</description>
     </item>
     
     <item>
