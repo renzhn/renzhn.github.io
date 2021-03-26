@@ -5,11 +5,11 @@
     <link>https://renzhn.github.io/posts/</link>
     <description>Recent content in Posts on Superuser</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 27 Jan 2021 16:21:09 +0800</lastBuildDate><atom:link href="https://renzhn.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Mar 2021 11:20:00 +0800</lastBuildDate><atom:link href="https://renzhn.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2021年便宜高性价比VPS推荐（最新）</title>
       <link>https://renzhn.github.io/posts/cheap-vps/</link>
-      <pubDate>Thu, 17 Dec 2020 16:46:27 +0800</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://renzhn.github.io/posts/cheap-vps/</guid>
       <description>前言 2021年有哪些便宜VPS？最便宜VPS是哪家？VPS市场几年时间变化甚多，有的一路涨价，有的卷款跑路，有的变化路由，有的带宽缩水，那么2021年还有哪些VPS值得推荐呢？
@@ -25,6 +25,36 @@ https://www.vultr.com
 https://cloudpingtest.com/vultr
 网络测试
    地理位置 官方Looking Glass地址     (Asia)Tokyo, Japan[日本 东京] https://hnd-jp-ping.vultr.com   Singapore[新加坡] https://sgp-ping.vultr.com   (AU) Sydney, Australia[悉尼] https://syd-au-ping.vultr.com   (EU) Frankfurt, DE[德国 法兰克福] https://fra-de-ping.vultr.com   (EU) Amsterdam, NL[荷兰 阿姆斯特丹] https://ams-nl-ping.vultr.com   (EU) London, UK[英国 伦敦] https://lon-gb-ping.</description>
+    </item>
+    
+    <item>
+      <title>流媒体解锁检测一键脚本</title>
+      <link>https://renzhn.github.io/posts/media-unlock-test/</link>
+      <pubDate>Fri, 26 Mar 2021 11:20:00 +0800</pubDate>
+      
+      <guid>https://renzhn.github.io/posts/media-unlock-test/</guid>
+      <description>特性  支持双栈测试 支持大部分流媒体测试 部分测试支持输出解锁的国家  使用方法  安装curl和jq  apt install -y curl jq  然后执行命令  bash &amp;lt;(curl -sSL &amp;#34;https://github.com/CoiaPrant/MediaUnlock_Test/raw/main/check.sh&amp;#34;) 项目地址 GitHub：https://github.com/CoiaPrant/MediaUnlock_Test</description>
+    </item>
+    
+    <item>
+      <title>Xray官方一键安装脚本</title>
+      <link>https://renzhn.github.io/posts/xray/</link>
+      <pubDate>Fri, 26 Mar 2021 10:44:58 +0800</pubDate>
+      
+      <guid>https://renzhn.github.io/posts/xray/</guid>
+      <description>Xray介绍 一个Debian包维护者发现XTLS库的LICENSE不是BSD许可，提了一个issue希望作者 @rprx 能修改方便打包，详见 https://github.com/XTLS/Go/issues/9。由这个issue引发了广泛讨论，rprx认为目前许可不是问题，也有不少人认为协议是立场的体现，各执一词。
+最终V2ray(V2fly社区)维护者经过投票确认XTLS不符合V2ray的MIT协议，并在V2ray-core 4.33.0版本移除了XTLS。rprx和其拥护者行动起来，很快就创建了Project X项目和Xray子项目（Xray取名来自XTLS和V2ray的结合），并发布了Xray-core的多个版本。这便是Xray的大致由来。
+XTLS和Xray离不开作者 @rprx 的辛勤付出，因此也简要介绍一下@rprx ：
+  @rprx 是VLESS协议的设计者，在介绍VLESS协议时写下了 性能至上、可扩展性空前，目标是全场景终极协议 的宏壮愿景；
+  @rprx 是 XTLS 的作者，在 XTLS库 中写下了 “THE FUTURE” 的霸气描述。将内外两条TLS连接结合，rprx可能不是第一个有这想法的人，但却是第一个将其实现、并成熟应用到实际中的作者。从使用表现上看，XTLS无愧于rprx对其的评价：划时代的革命性概念与技术：XTLS，以及社区给出的“黑科技”称谓；
+  @rprx 是Project X和Xray项目的创始人。由于LICENSE理念之争，rprx创建了对标Project V和V2ray-core的Project X和Xray-core项目，广受欢迎。
+  Xray-Core目前发布的各个版本主要介绍如下：
+  Xray-core 1.0.0版本：项目创建，提供完整的VLESS和XTLS支持，功能上是V2ray-core的超集。主要变动是将v2ray和v2ctl可执行文件合并为xray，性能全面增强；
+  Xray-core 1.1.0和1.1.1版本：测试过渡版本，未提供详细发行说明；
+  Xray-core 1.1.2版本：引入了Linux Kernel Splice技术，适用于安卓、路由器等Linux环境。Splice技术减少了数据拷贝次数和内存占用，拥有更强的性能。需要说明的是，只适用于类Linux环境的客户端出栈，服务端入栈仍然是direct；
+  Xray-core 1.1.3版本：重构了透明代理的 REDIRECT 模式，使之同时支持 IPv4 和 IPv6，解决了V2ray和trojan遗留的问题；
+  Xray-core 1.1.4版本：优化内存占用，TLS更多选项配置，使服务端伪装站的TLS设置在SSL Labs能达到A+评分；
+  Xray-core 1.</description>
     </item>
     
     <item>
