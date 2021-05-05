@@ -7,24 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 26 Mar 2021 11:20:00 +0800</lastBuildDate><atom:link href="https://renzhn.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>2021年便宜高性价比VPS推荐（最新）</title>
-      <link>https://renzhn.github.io/posts/cheap-vps/</link>
+      <title>2021年物美价廉的国外VPS推荐</title>
+      <link>https://renzhn.github.io/posts/vps-2021/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://renzhn.github.io/posts/cheap-vps/</guid>
-      <description>前言 2021年有哪些便宜VPS？最便宜VPS是哪家？VPS市场几年时间变化甚多，有的一路涨价，有的卷款跑路，有的变化路由，有的带宽缩水，那么2021年还有哪些VPS值得推荐呢？
-一、Vultr 推荐指数： ★★★★★
-全球最优秀的VPS服务商之一，美国Choopa机房的旗下的业务，产品性能比较优越，因而在业内口碑还算是比较好的。机器部署在全球17个数据中心，包括日本、韩国、新加坡、韩国、美国、荷兰等；支持：IPV6、按小时付款、快照、区块存储、自定义ISO等多种特性。KVM架构，1Gbps带宽，50G免费备份空间，可以一键将备份好的实例还原到新建的实例里。迈阿密等延时高的机房挺稳定的，东京延时低但丢包率有点高，支持支付宝、Paypal、信用卡、Bitcoin付款，2.5$/mo起。按小时计费，可以通过重建实例实现自由切换IP.
-因为Vultr实际可以长期占用CPU 100%，所以可以一键DD Windows系统，然后通过远程桌面登录，这样我们就相当于租用了一台国外的电脑了。
-这里提供一个秋水大佬的一键脚本，只需要一键运行，断开后等待30分钟左右即可用win10系统自带的远程桌面登录，等不急的可以用VNC连接远程桌面查看进度：
-wget --no-check-certificate -qO DebianNET.sh qiu.sh/dd &amp;amp;&amp;amp; bash DebianNET.sh -dd &amp;#34;https://mirrors.yuntu.ca/teddysun/cn_windows2012r2.gz&amp;#34; 安装完成后用Windows自带远程桌面mstsc命令连接，计算机填写VPS的IP地址，默认用户名：Administrator，默认密码：Password147，登录后务必更改密码，由于秋水大佬在圈内的口碑很好，大家不用担心故意留有后门这种操作。
- Vultr正在做活动，新注册用户充值$10之后，将获得$100赠送余额，赠送的额度有效期为30天。注意：充$10送$100活动只针对新用户，老用户无效，并且必须绑定信用卡或PayPal来激活，其他任何充值方式无法享受。【点击注册】
- 官方网站
-https://www.vultr.com
-各数据中心在线Ping测速
-https://cloudpingtest.com/vultr
-网络测试
-   地理位置 官方Looking Glass地址     (Asia)Tokyo, Japan[日本 东京] https://hnd-jp-ping.vultr.com   Singapore[新加坡] https://sgp-ping.vultr.com   (AU) Sydney, Australia[悉尼] https://syd-au-ping.vultr.com   (EU) Frankfurt, DE[德国 法兰克福] https://fra-de-ping.vultr.com   (EU) Amsterdam, NL[荷兰 阿姆斯特丹] https://ams-nl-ping.vultr.com   (EU) London, UK[英国 伦敦] https://lon-gb-ping.</description>
+      <guid>https://renzhn.github.io/posts/vps-2021/</guid>
+      <description>前言 2021年有哪些物美价廉的VPS值得购买？最便宜的VPS是什么？下面站长给大家介绍保证质量同时价格最便宜的VPS商家供大家参考。
+一、CloudCone 推荐指数：★★★★★
+官方网站
+https://cloudcone.com/
+CloudCone是一家成立于2017年的美国VPS云租赁提供商。 CloudCone VPS托管位于美国洛杉矶。在洛杉矶MultaCom机房中，默认情况下，可选ArchLinux系统是。它带有一个IPv4，三个IPv6，硬盘是RAID-10 SSD，并带有快照功能。如果添加自动备份，则可以每月单独增加VPS每月付款金额的30％。根据以前的经验，电信和中国联通在白天的影响仍然可以接受，而电信和非中国联通的移动在夜间却很糟糕。 随需应变的免费DDoS保护（和24/7付费DDoS保护），以及每两周对服务器快照进行一次完整备份，如果要还原，可以直接与客户服务联系。 此外，对于常规实例，CloudCone收取详细的资源费用，该费用分为四个部分：CPU，内存，硬盘驱动器和IP地址。前三个是可定制的。有关其他公共网络IP地址，请与客户联系以应用该服务。 如果服务器出现故障，则仅对硬盘驱动器和IP地址收费，这意味着如果服务器空闲且不想删除它，则可以将其关闭以节省资金。但是，此计费机制仅在正常情况下使用，并且如果是特惠套餐，则会有不同的计费方案集。
+ CloudCone最近在做“2021 Flash Sale”活动- 3款大流量VPS，给5T流量，虽然内存、硬盘给的不算大，但是好在价格便宜，所以也算得上性价比不错的美国大流量VPS。
+ 2021闪购特别促销活动
+VPS特征：KVM虚拟，纯SSD，1Gbps带宽，一个IPv4，3个IPv6。
+   内存 CPU SSD 流量 价格 购买     512M 1核 15G 5T/月 $12.95/年 链接   768M 1核 20G 5T/月 $14.02/年 链接   1G 1核 30G 5T/月 $15.00/年 链接    存储型VPS
+VPS特征：KVM虚拟，HDD raid10，1Gbps带宽，一个IPv4，3个IPv6
+   内存 CPU 硬盘 流量 价格 购买     512M 1核 100G 3T/月 $17.</description>
     </item>
     
     <item>
