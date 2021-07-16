@@ -1,96 +1,58 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://renzhn.github.io/posts/cheap-vps/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renzhn.github.io/categories/</loc>
     <lastmod>2021-07-10T22:38:34+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renzhn.github.io/posts/</loc>
     <lastmod>2021-07-10T22:38:34+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renzhn.github.io/</loc>
     <lastmod>2021-07-10T22:38:34+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renzhn.github.io/posts/dzxns/</loc>
     <lastmod>2021-07-10T22:38:34+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renzhn.github.io/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2021-07-10T22:38:34+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renzhn.github.io/categories/%E4%B8%80%E9%94%AE%E8%84%9A%E6%9C%AC/</loc>
     <lastmod>2021-03-26T11:20:00+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renzhn.github.io/posts/media-unlock-test/</loc>
     <lastmod>2021-03-26T11:20:00+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renzhn.github.io/posts/xray/</loc>
     <lastmod>2021-03-26T10:44:58+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renzhn.github.io/posts/cloudflare-speedtest/</loc>
     <lastmod>2021-01-27T16:21:09+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renzhn.github.io/posts/install-docker/</loc>
     <lastmod>2021-01-27T15:54:07+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renzhn.github.io/posts/seedbox/</loc>
     <lastmod>2021-01-10T08:57:22+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renzhn.github.io/posts/glances/</loc>
     <lastmod>2020-12-20T08:31:47+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renzhn.github.io/posts/nali/</loc>
     <lastmod>2020-12-19T19:01:06+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renzhn.github.io/posts/vps-dd/</loc>
     <lastmod>2020-12-19T10:31:47+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renzhn.github.io/posts/vps-remote-de/</loc>
     <lastmod>2020-12-18T17:31:47+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renzhn.github.io/tags/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renzhn.github.io/archives/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://renzhn.github.io/search/</loc>
   </url>
-  
 </urlset>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on VPS百科</title>
     <link>https://renzhn.github.io/posts/</link>
@@ -18,10 +18,11 @@
 https://www.racknerd.com
 RackNerd是一家美国VPS服务商，其域名racknerd.com于2015年注册。 最近，RackNerd大批量上架AMD系列的高性能平台VPS，根据官方的消息除了已经上线的洛杉矶、纽约、芝加哥之外，圣何塞、西雅图、达拉斯、阿什本、亚特兰大、阿姆斯特丹等机房将全部到位，用来建站很不错！
 付款方式：信用卡、PayPal、支付宝、银联、加密货币等
-2021年6.18促销活动
-   内存 CPU SSD 流量 价格 购买     1.8G 2核 18G 5T/月 $17.88/年 链接   2.8G 2核 38G 6T/月 $21.88/年 链接   3.8G 3核 55G 8T/月 $38.88/年 链接    促销款VPS-INTEL-SSD-Specials
-可选机房：圣何塞、达拉斯、芝加哥、亚特兰大、阿姆斯特丹；KVM虚拟，纯SSD阵列，1Gbps带宽，自带一个IPv4地址，SolusVM管理面板。
-   内存 CPU SSD 流量 价格 购买     768M 1核 12G 2T/月 $9.49/年 链接   2.</description>
+2021年7月16日最新AMD高性能VPS促销活动
+快如闪电！宿主机采用Ryzen 3900X CPU，RAID-1 NVMe硬盘。
+   内存 CPU NVMe 流量 价格 购买     1G 1核 24G 2.5T/月 $18.18/年 链接   2G 2核 38G 4.0T/月 $31.88/年 链接   3G 2核 55G 5.0T/月 $48.79/年 链接    2021年6.18促销活动
+基于KVM虚拟化平台，纯SSD RAID-10存储，1Gbps带宽，SolusVM管理面板
+   内存 CPU SSD 流量 价格 购买     1.8G 2核 18G 5T/月 $17.</description>
     </item>
     
     <item>

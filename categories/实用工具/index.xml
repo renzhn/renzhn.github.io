@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>实用工具 on VPS百科</title>
     <link>https://renzhn.github.io/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/</link>
